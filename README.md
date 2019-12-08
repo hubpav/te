@@ -4,6 +4,8 @@ Toggle Entry (te) is a Toggl REST API command line interface (CLI) client. This 
 
 For any power user, this will be probably much faster way than inserting entries with the official web/desktop/mobile version of the app. Moreover, it can nicely speed-up bulk editing via shell script edited in your favorite editor. Actually, this is how I am catching up with my timesheets ;-)
 
+![Toggl Entry screenshot](te.png)
+
 
 ## Requirements
 
