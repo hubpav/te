@@ -1,0 +1,8 @@
+.DS_Store
+.eggs/
+.vscode/
+*.egg-info/
+*.pyc
+build/
+dist/
+venv/
