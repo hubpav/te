@@ -28,14 +28,6 @@ def main(date, time, duration, description):
         click.echo(err, err=True)
         sys.exit(1)
 
-    if timezone is None:
-        click.echo('Missing environment variable TE_TIMEZONE', err=True)
-        sys.exit(1)
-
-    if api_token is None:
-        click.echo('Missing environment variable TE_API_TOKEN', err=True)
-        sys.exit(1)
-
     if date == '-':
         now = pendulum.now(timezone)
         date = '{:04d}-{:02d}-{:02d}'.format(now.year, now.month, now.day)
